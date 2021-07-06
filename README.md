@@ -32,7 +32,7 @@ brew install terraform
 brew tap boltops-tools/software
 brew install terraspace
 terraspace check_setup
-```
+
 terraspace new project terraspace-ec2 --plugin aws
 cd terraspace-ec2
 terraspace new module 1-ec2
@@ -47,3 +47,4 @@ terraspace down 1-launch-ec2 -y # to destroy
 
 bucket name can be found here
 /Users/blockchain/TAMATAR/TERRASPACE/terraspace-ec2/.terraspace-cache/ap-southeast-1/dev/stacks/1-launch-ec2
+```
